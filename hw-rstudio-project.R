@@ -1,8 +1,8 @@
 library(magrittr); library(ggplot2)
-
+install.packages(c("magrittr", "ggplot2", "httr", "dplyr"))
 source("R/utils.R")
 
-x <- "Francisco"
+x <- "Rodrigo"
 
 df <- get_freq_nome(x)
 
